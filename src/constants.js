@@ -1,1 +1,1 @@
-console.log("dhruv");
+export const DB_NAME="videotube"
