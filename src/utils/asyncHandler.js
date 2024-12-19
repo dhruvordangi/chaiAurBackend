@@ -5,6 +5,7 @@ const asyncHandler =(requestHandler) =>{
 }
 
 export {asyncHandler}
+//this asyncHandler will return a promise
 
 
 
