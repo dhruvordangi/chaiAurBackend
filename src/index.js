@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import connectdB from './db/index.js';
 import {app} from './app.js'
 
-dotenv.config({path:'./env'})
+dotenv.config({path:'./.env'})
 
 connectdB() // this returns a promise
 .then( ()=>{
